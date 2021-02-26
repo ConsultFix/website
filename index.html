@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>ConsultFix - The Complete Consultation Platform</title>
+	<link rel="shortcut icon" href="assets/images/favicon.ico" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="assets/style.css" />
+</head>
+
+<body>
+	<nav class="navbar py-2 px-2" role="navigation" aria-label="main navigation">
+		<div class="navbar-brand">
+			<a href="index.html" class="navbar-item">
+				<img src="assets/images/site-logo-1.svg" style="max-height: 40px" alt="Logo" />
+				<h2 class="is-size-4 has-text-weight-bold ml-2" id="nav-text">
+					ConsultFix
+				</h2>
+			</a>
+
+			<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+				data-target="navbarBasicExample" id="burger-menu">
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+				<span aria-hidden="true"></span>
+			</a>
+		</div>
+
+		<div class="navbar-menu" id="navbar-items">
+			<div class="navbar-end">
+				<div class="navbar-item">
+					<div class="buttons">
+						<button class="button is-white">Home</button>
+					</div>
+				</div>
+
+				<div class="navbar-item">
+					<div class="buttons">
+						<button class="button is-white">Features</button>
+					</div>
+				</div>
+
+				<div class="navbar-item">
+					<div class="buttons">
+						<button class="button is-white">Categories</button>
+					</div>
+				</div>
+
+				<div class="navbar-item">
+					<div class="buttons">
+						<a class="button is-rounded" style="border-width: 2px">For Experts</a>
+					</div>
+				</div>
+
+				<div class="navbar-item">
+					<div class="buttons">
+						<a class="button" style="border-width: 2px" id="log-in">Log in</a>
+					</div>
+				</div>
+
+				<div class="navbar-item">
+					<div class="buttons">
+						<a class="button is-link"><strong style="font-weight: 600">Sign up</strong></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<hr class="my-0">
+
+	<section class="hero is-medium">
+		<div class="hero-body" id="hero-intro-body">
+			<div class="container">
+				<div class="columns is-vcentered is-justify-content-center">
+					<div class="column is-5 mr-6 is-12-mobile">
+						<h1 class="title has-text-weight-bold is-size-2-widescreen mb-4" id="color-light-black"
+							style="line-height: 125%">
+							Consult your clients <br class="is-hidden-mobile" />anytime,
+							anywhere.
+						</h1>
+						<p class="is-size-5-widescreen mb-4" style="
+									letter-spacing: -3%;
+									font-weight: 400;
+									font-size: 1.2rem !important;
+								">
+							Consult your clients both online & offline. We fix the timings, payments & more.
+						</p>
+						<a href=""><button class="button is-primary" style="font-size: 1.1rem !important"
+								id="button-search">
+								<span class="icon" style="margin-right: 6px">
+									<i class="fas fa-user-friends"></i>
+								</span>
+								<span>Join as an Expert</span>
+							</button></a>
+					</div>
+					<div class="column my-2 is-5 has-text-centered">
+						<img src="assets/images/hero-section.svg" style="max-height: 350px" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="hero is-small" style="background-color: #142C54 !important;">
+		<div class="hero-body" id="pop-body">
+			<div class="container">
+				<div class="columns is-vcentered is-justify-content-center">
+
+					<div class="column has-text-centered is-7" id="page-example">
+						<figure class="image">
+							<img id="example-image" src="/assets/images/Safari.svg" alt="">
+						</figure>
+					</div>
+
+					<div class="column is-5" id="example-body">
+						<h1 class="title is-size-2" id="example-title" style="color: white !important;">Create your
+							online identity</h1>
+						<p class="is-size-5 mb-5" style="color: white !important; font-size: 1.10rem!important;">
+							Set your timings and prices to create your own profile page. We handle payments, timings and
+							video
+							calls for you.</p>
+						<a href=""><button class="button is-primary" style="font-size: 1.1rem !important"
+								id="button-search">
+								<span class="icon" style="margin-right: 6px">
+									<i class="fas fa-address-card"></i>
+								</span>
+								<span>View a live profile</span>
+							</button></a>
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="hero is-small py-4" id="category-section">
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns is-vcentered is-justify-content-center">
+
+					<div class="column has-text-centered is-6">
+						<figure class="image is-16by9">
+							<img src="assets/images/video_call1.svg" alt="">
+						</figure>
+					</div>
+
+					<div class="column is-5 is-12-mobile" id="mismanagement-body">
+						<h1 class="title is-size-2 is-size-3-mobile has-text-weight-bold mb-4 mt-4 reduce-size"
+							id="color-light-black">
+							Have 1:1 consultations with your clients
+						</h1>
+						<p class="is-size-5" style="font-size: 1.2rem !important;" id="color-light-black">
+							Your clients can simply look at your timings, schedule an appointment and pay. That's it!
+						</p>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<hr style="background-color:  #f2f2f2; margin: 0 !important">
+	</div>
+
+	<section class="section my-4">
+		<div class="container">
+			<h1 class="title has-text-centered mb-5" id="color-light-black">Features</h1>
+			<div class="columns is-multiline is-justify-content-center">
+
+				<div class="column is-4">
+					<div class="card" id="features-card" style="border: 0.5px solid #e9e9e9;">
+						<header class="card-content pb-0">
+							<i class="fas fa-comment-alt"></i>
+							<p class="content has-text-weight-bold is-size-4" id="color-light-black">Dashboard</p>
+						</header>
+
+						<div class="card-content pt-4">
+							<div class="content" id="color-light-black">
+								<span id="normal-font">A very easy to use dashboard that can help you manage all your
+									consultations.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="column is-4">
+					<div class="card" id="features-card" style="border: 0.5px solid #e9e9e9;">
+						<header class="card-content pb-0">
+							<i class="fas fa-calendar"></i>
+							<p class="content has-text-weight-bold is-size-4" id="color-light-black">Appointments</p>
+						</header>
+
+						<div class="card-content pt-4">
+							<div class="content" id="color-light-black">
+								<span id="normal-font">Easily look and track your appointments with our inbuilt
+									calendar. Supports third party calendars.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="column is-4">
+					<div class="card" id="features-card" style="border: 0.5px solid #e9e9e9;">
+						<header class="card-content pb-0">
+							<i class="fas fa-chart-area"></i>
+							<p class="content has-text-weight-bold is-size-4" id="color-light-black">Analytics</p>
+						</header>
+
+						<div class="card-content pt-4">
+							<div class="content" id="color-light-black">
+								<span id="normal-font">Track payments, page views, reviews, customer feedback and
+									total traction.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+
+	<section class="hero is-small my-5">
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns is-vcentered is-justify-content-center">
+
+					<div class="column is-5 is-12-mobile" id="mismanagement-body">
+						<h1 class="title is-size-2 is-size-3-mobile has-text-weight-bold mb-4 mt-4 reduce-size"
+							id="color-light-black">
+							Tired of Mismanagement?
+						</h1>
+						<p class="is-size-5" style="font-size: 1.2rem !important;" id="color-light-black">
+							Mismanagement? Forget it. Calendar integrations, payments, page views & more all-in-one
+							place.<br><br>
+
+							Look at Appointments and Consult clients Virtually via <b> Video Calls or Meet
+								Directly</b>.<br>
+						</p>
+					</div>
+
+					<div class="column has-text-centered is-6">
+						<figure class="image is-16by9">
+							<img src="assets/images/MessyDoodle.svg" alt="">
+						</figure>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="hero is-primary is-small" id="color-light-blue">
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns is-vcentered is-justify-content-center">
+					<div class="column has-text-centered my-3 is-6">
+						<figure class="image is-16by9">
+							<iframe class="has-ratio" width="640" height="360"
+								src="https://www.youtube.com/embed/cb7ML24eTCo" frameborder="0"
+								allowfullscreen></iframe>
+						</figure>
+
+					</div>
+					<div class="column is-6 is-12-mobile" id="margin-adding">
+						<h1 class="title has-text-weight-bold is-size-3-widescreen is-size-4-mobile mb-4 mt-4"
+							style="font-weight: 600;" id="color-light-black">
+							What is ConsultFix?
+						</h1>
+						<p class="is-size-6-widescreen mb-5">
+							ConsultFix is a Simple All-in-one Consultation Platform. Explore and consult with a
+							wide-range of Experts.<br><br>
+
+							Consult Experts in just 5 Simple Steps.<br class="visible-or-not"><br>
+
+							<span class="visible-or-not">To solve mismanagement for experts, we created a tool which
+								manages Appointments, Reports &
+								Analytics.</span>
+						</p>
+						<a><button class="button is-fullwidth is-primary" id="button-search">Features</button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="hero is-small section">
+		<div class="hero-body">
+			<div class="container">
+				<div class="columns is-vcentered is-justify-content-center">
+
+					<div class="column has-text-centered is-5">
+						<figure class="image" id="image-shadow" style="max-width: 540px;">
+							<img src="assets/images/expert-png/man-working-from-home.svg" alt="">
+						</figure>
+						<h3 class="subtitle mt-5" style="color: #0A2540;">Consult your clients virtually via Video
+							Calls.</h3>
+					</div>
+
+					<div class="column has-text-centered is-5">
+						<figure class="image" id="image-shadow" style="max-width: 540px;">
+							<img src="assets/images/expert-png/map-finding-route.svg" alt="">
+						</figure>
+						<h3 class="subtitle mt-5" style="color: #0A2540;">Consult your clients directly at your office.
+						</h3>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<hr style="background-color:  #f2f2f2; margin: 0 !important">
+	</div>
+
+	<section class="section">
+		<div class="container">
+			<h1 class="title has-text-centered mb-5">The Process</h1>
+			<div class="columns is-multiline is-justify-content-center">
+
+				<div class="column is-3">
+					<div class="card">
+						<div class="card-image">
+							<figure class="image is-4by3">
+								<img src="assets/images/process/register.svg" alt="Register">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="media">
+								<div class="media-content">
+									<p class="title is-4 is-size-5">1. Register</p>
+								</div>
+							</div>
+
+							<div class="content">
+								<span id="normal-font">Register an expert account with your Email or Phone number. <br
+										class="visible-or-not"></span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="column is-3">
+					<div class="card">
+						<div class="card-image">
+							<figure class="image is-4by3">
+								<img src="assets/images/process/choose.svg" alt="Select Expert">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="media">
+								<div class="media-content">
+									<p class="title is-4 is-size-5">2. Create your page</p>
+								</div>
+							</div>
+
+							<div class="content">
+								<span id="normal-font">Create your own page with your details, timings and
+									locations.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="column is-3">
+					<div class="card">
+						<div class="card-image">
+							<figure class="image is-4by3">
+								<img src="assets/images/process/consult.svg" alt="Consult Expert">
+							</figure>
+						</div>
+						<div class="card-content">
+							<div class="media">
+								<div class="media-content">
+									<p class="title is-4 is-size-5">3. Consultation</p>
+								</div>
+							</div>
+
+							<div class="content">
+								<span id="normal-font">Consult your clients online via video calls and directly near
+									you.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="hero is-primary is-small" id="color-dark-blue">
+		<div class="hero-body">
+			<div class="container">
+				<div class="signup-grid">
+					<div class="image-signup"><img src="assets/images/signup/support.svg" alt="Sign Up"></div>
+					<div class="image-signup-none-1"><img src="assets/images/signup/message.svg"
+							alt="Join as an Expert"></div>
+					<div class="image-signup-none-2"><img src="assets/images/signup/vr.svg" alt="Contact Us"></div>
+					<div class="button-signup" style="margin: auto;">
+						<button class="button is-medium is-fullwidth mb-2" id="sign-up-button"
+							style="background-color: #cae8ff; font-weight: 500; color: black;">Sign Up</button><br>
+						<button class="button is-medium is-fullwidth mb-2" id="expert-button"
+							style="background-color: #cae8ff; font-weight: 500; color: black;">Join as an
+							Expert</button><br>
+						<button class="button is-medium is-fullwidth mb-2" id="contact-button"
+							style="background-color: #cae8ff; font-weight: 500; color: black;">Contact Us</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="content has-text-centered">
+				<div class="soc mb-4">
+					<a href="https://github.com/consultfix" target="_blank"><i class="fab fa-github fa-lg mx-3"
+							aria-hidden="true"></i></a>
+					<a href="https://www.youtube.com/channel/UCmrurc61yCSdU23Ty20Nqyw" target="_blank"><i
+							class="fab fa-youtube fa-lg mx-3" aria-hidden="true"></i></a>
+					<a href="https://twitter.com/ConsultFixHQ" target="_blank"><i class="fab fa-twitter fa-lg mx-3"
+							aria-hidden="true"></i></a>
+				</div>
+				<p>
+					<a href="https://drive.google.com/file/d/1FU4W3O6l5olJpp8VZQlcbgAB9vjF8u0_/view?usp=sharing"
+						target="_blank">TOS</a> & <a
+						href="https://drive.google.com/file/d/1Bj6-i8eG5fTJSRM2oqvKA0AhglPus-jc/view?usp=sharing"
+						target="_blank">Privacy Policy</a>.<br>
+					Copyright © ConsultFix. All rights reserved
+				</p>
+			</div>
+		</div>
+	</footer>
+
+
+	<script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+	<script defer type="text/javascript" src="assets/index.js" charset="utf-8"></script>
+</body>
+
+</html>
